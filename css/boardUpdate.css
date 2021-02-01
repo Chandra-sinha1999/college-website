@@ -1,0 +1,72 @@
+.header_board {
+  background-color: grey;
+  padding: 3% 10%;
+}
+.text11_board {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: yellow;
+}
+.text12_board {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: darkred;
+  margin-top: -13px;
+}
+.line {
+  vert-align: middle;
+  height: 60px;
+  width: 60px;
+}
+.breadcrump_board li {
+  display: inline-block;
+}
+.home_board {
+  color: darkred;
+}
+.active_board {
+  color: yellow;
+}
+.breadcrump_board {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.vl {
+  border-left: 6px solid darkred;
+  /* height: 100%; */
+}
+.vl_inner {
+  margin-left: 2%;
+}
+.vl_inner:before {
+  content: "\2014 \00A0";
+}
+.editors {
+  margin-left: 2%;
+  margin-right: 20%;
+}
+.associateEditor {
+  margin-left: 10%;
+}
+.name_board {
+  margin-left: 2%;
+}
+.internationalBoard {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: yellow;
+}
+.topHeading_board {
+  color: white;
+  background-color: gray;
+  text-align: center;
+}
+.heading_editor {
+  background-color: gray;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}

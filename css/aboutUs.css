@@ -1,0 +1,72 @@
+.header_aboutUs {
+  background-color: grey;
+  padding: 3% 10%;
+}
+.text11_aboutUs {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: yellow;
+}
+.text12_aboutUs {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: darkred;
+  margin-top: -13px;
+}
+.line {
+  vert-align: middle;
+  height: 60px;
+  width: 60px;
+}
+.breadcrump_aboutUs li {
+  display: inline-block;
+}
+.home_aboutUs {
+  color: darkred;
+}
+.active_aboutUs {
+  color: yellow;
+}
+.breadcrump_aboutUs {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.common_aboutUs img {
+  padding: 8px;
+  -webkit-box-shadow: -2px 0px 50px -7px rgba(117, 117, 117, 1);
+  margin-bottom: 50px;
+}
+.img-responsive_aboutUs {
+  display: block;
+  width: 150%;
+  height: 350px;
+}
+
+.common_aboutUs p {
+  font-size: 18px;
+  color: #232f3a;
+  text-align: justify;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+  width: 150%;
+}
+.inside_aboutUs {
+  padding: 70px 0 0 0px;
+}
+.lower-header_aboutUs {
+  padding: 0;
+  margin-left: 7%;
+  margin-right: 34%;
+}
+.chiefPatron {
+  color: white;
+  background-color: gray;
+  margin-bottom: 5%;
+}
+.patrons {
+  color: white;
+  background-color: gray;
+  margin-bottom: 5%;
+}

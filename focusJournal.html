@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Focus of Journal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script>
+      function includeHTML() {
+        var z, i, elmnt, file, xhttp;
+        /*loop through a collection of all HTML elements:*/
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+          elmnt = z[i];
+          /*search for elements with a certain atrribute:*/
+          file = elmnt.getAttribute("w3-include-html");
+          if (file) {
+            /*make an HTTP request using the attribute value as the file name:*/
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4) {
+                if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                /*remove the attribute, and call this function once more:*/
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
+              }
+            }      
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /*exit the function:*/
+            return;
+          }
+        }
+      };
+      </script>
+  </head>
+  <body>
+    <div w3-include-html="upperNav.html"></div>
+    <div w3-include-html="navBar.html"></div>
+
+
+
+    <div class="header_aboutUs">
+      <div class="inner-header">
+        <h1 class="text11_aboutUs">FOCUS OF</h1>
+        <h1 class="text12_aboutUs">THE JOURNAL</h1>
+        <!-- <img class="line" src="" alt="LINE IMAGE"> -->
+      </div>
+      <div class="breadcrump_aboutUs">
+        <ol>
+            <li>
+                <a class="home_aboutUs" href="home.html">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>
+            </li>
+            <li class="active_aboutUs">
+               / Focus Of The Journal
+            </li>
+        </ol>
+      </div>
+    </div>
+
+
+     <!-- <div class="lower-header_focus inside_focus common_focus">
+          <img class="img-responsive_focus" src="images/homeImage3.jpg">
+          <p>The Journal of Content, Community & Communication shall focus on the South-Asia region,
+          and it shall provide an open forum for researchers and academicians to come up with researches
+          in the field of media studies, digital media content and communication studies.
+          It will aim at providing state-of-the-art knowledge in the media studies field, and become a platform for instructive and collaborative research.</p>
+    </div>-->
+
+  <div class="content-section about-page-section about1">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-9 col-xs-12">
+      <div class="lower-header_aboutUs inside_aboutUs common_aboutUs">
+           <img class="img-responsive_aboutUs" src="images/homeImage3.jpg">
+           <p>The content of this journal shall focus on to provide an open forum for researchers and academicians to come up with researches in their field. Its main focus will be on research and higher education. It will allow researchers to keep up to date with the developments of their field and direct their own research. It will aim at providing state-of-the-art knowledge in all areas pertinent to science, technology and management and become a platform for instructive and collaborative research.
+          </p>
+     </div>
+  </div>
+    <div class="col-md-3 col-xs-12 pull_right">
+      <div class="right_box">
+      <div class="head_div"><h2>About Us</h2></div>
+      <ul class="widget1">
+      <li><a href="aboutJournal.html">About the Journal</a></li>
+      <li><a href="focusJournal.html"><strong>Focus of the Journal</strong></a></li>
+      <li><a href="marketPotential.html">Market Potential of the Journal</a></li>
+      <li><a href="patron.html">Patrons</a></li>
+      </ul>
+      </div>
+      </div>
+    </div>
+   </div>
+  </div>
+
+  <div w3-include-html="footBar.html"></div>
+
+   <script>
+    includeHTML();
+  </script>
+
+  
+
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+           integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+   </script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+           integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+   </script>
+  </body>
+</html>

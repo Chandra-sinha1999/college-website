@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  max-width: 747px;
+  background-color: deepskyblue;
+  color: white;
+  margin-top: 5%;
+}
+.input-section {
+  margin-top: 5%;
+}
+input,
+button {
+  width: 50%;
+  margin: 2%;
+}

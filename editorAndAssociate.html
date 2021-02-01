@@ -1,0 +1,242 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Editors/Associate editors</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+
+    <script>
+      function includeHTML() {
+        var z, i, elmnt, file, xhttp;
+        /loop through a collection of all HTML elements:/
+        z = document.getElementsByTagName("*");
+        for (i = 0; i < z.length; i++) {
+          elmnt = z[i];
+          /search for elements with a certain atrribute:/
+          file = elmnt.getAttribute("w3-include-html");
+          if (file) {
+            /make an HTTP request using the attribute value as the file name:/
+            xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+              if (this.readyState == 4) {
+                if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                /remove the attribute, and call this function once more:/
+                elmnt.removeAttribute("w3-include-html");
+                includeHTML();
+              }
+            }      
+            xhttp.open("GET", file, true);
+            xhttp.send();
+            /exit the function:/
+            return;
+          }
+        }
+      };
+      </script>
+  </head>
+  <body>
+    <div w3-include-html="upperNav.html"></div>
+    <div w3-include-html="navBar.html"></div>
+
+
+
+
+    <div class="header_board">
+<div class="inner-header_board">
+    <h1 class="text11_board">EDITORS/</h1>
+    <h1 class="text12_board">ASSOCIATE EDITORS</h1>
+
+<!-- <img class="line" src="" alt="LINE IMAGE"> -->
+    </div>
+
+        <ol class="breadcrump_board">
+            <li>
+                <a class="home_board" href="home.html">
+                    <i class="fa fa-home"></i>
+                    Home
+                </a>
+            </li>
+            <li class="active_board">
+               / Editors/Associate editors
+            </li>
+        </ol>
+</div>
+
+<div class="container">
+  <div class="row" style="margin-top: 4%;">
+
+  <div class="col-sm">
+    <div class="vl">
+      <h4 class="name_board">Dr. Pradeep Kumar Singh</h4>
+      <div class="vl_inner">Professor & Head - CSE</div>
+        <div class="vl_inner">ABES Engineering College</div>
+        <div class="vl_inner">Ghaziabad, U.P., India</div>
+      <div class="vl_inner">Email id: pradeep.singh@abes.ac.in</div>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="vl">
+      <h4 class="name_board">Dr. Anish Gupta</h4>
+      <div class="vl_inner">Professor IT</div>
+       <div class="vl_inner">ABES Engineering College</div>
+      
+      <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+      <div class="vl_inner">Email id: anish.gupta@abes.ac.in</div>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="vl">
+      <h4 class="name_board">Dr. Sanjay Kumar</h4>
+      <div class="vl_inner">Assistant Professor, MBA</div>
+      <div class="vl_inner">ABES Engineering College</div>
+      
+      <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+       <div class="vl_inner">Email id: skumar@abes.ac.in</div>
+    </div>
+  </div>
+</div>
+
+<br>
+<div class="row">
+  <div class="col-sm">
+    <div class="vl">
+      <h4 class="name_board">Dr. Gaurav Dubey</h4>
+      <div class="vl_inner">Professor, CSE</div>
+      
+      <div class="vl_inner">ABES Engineering College</div>
+      
+      <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+      <div class="vl_inner">Email id: gaurav.dubey@abes.ac.in</div>
+    </div>
+  </div>
+  
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Dr. Amit Agrawal</h4>
+    <div class="vl_inner">Associate Professor, EN</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: amit.agrawal@abes.ac.in</div>
+    
+  </div>
+</div>
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Dr. Harikesh Singh</h4>
+    <div class="vl_inner">Associate Professor, IT</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: harikesh.singh@abes.ac.in</div>
+    
+  </div>
+</div>
+</div>
+
+<br>
+<div class="row">
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Dr. Satyendra Kumar</h4>
+    <div class="vl_inner">Assistant Professor AS & H</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: satyendra.kumar@abes.ac.in</div>
+    
+  </div>
+</div>
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Dr. Pooja Tiwari</h4>
+    <div class="vl_inner">Assistant Professor, MBA</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: pooja.tiwari@abes.ac.in</div>
+  </div>
+</div>
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Ms. Gaganpreet Kaur</h4>
+    <div class="vl_inner">Assistant Professor, ME</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: gaganpreet.kaur@abes.ac.in</div>
+    
+</div>
+</div>
+</div>
+<br>
+  <div class="row">
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Mr. Uzair Khan</h4>
+    <div class="vl_inner">Assistant Professor, Civil</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: uzair.khan@abes.ac.in</div>
+  </div>
+</div>
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Mr. Tarun Sharma</h4>
+    <div class="vl_inner">Assistant Professor, MCA</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: tarun.sharma@abes.ac.in</div>
+  </div>
+</div>
+<div class="col-sm">
+  <div class="vl">
+    <h4 class="name_board">Dr. Raman Kapoor</h4>
+    <div class="vl_inner">Associate Professor, ECE</div>
+    <div class="vl_inner">ABES Engineering College</div>
+      
+    <div class="vl_inner">Ghaziabad, U.P., India</div>
+      
+    <div class="vl_inner">Email id: raman.kapoor@abes.ac.in</div>
+    
+  </div>
+</div>
+</div>
+</div>  
+
+
+<div w3-include-html="footBar.html"></div>
+
+   <script>
+    includeHTML();
+  </script>
+
+
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+  </body>
+</html>

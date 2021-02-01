@@ -1,0 +1,11 @@
+.currentIssue {
+  background-color: aqua;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+}
+.issue_container {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+}

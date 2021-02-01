@@ -1,0 +1,60 @@
+.right_box {
+    float: left;
+    width: 90%;
+    background: #f8f8f8;
+    border: solid 1px #c4c4c4;
+}
+.pull-right {
+    float: right!important;
+}
+.head_div {
+    float: left;
+    background: #8b0000;
+    width: 92%;
+    margin-left: -4%;
+    margin-top: 20px;
+    border-bottom: 5px solid #fff;
+}
+.head_div h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px 0 10px 10px;
+    font-family: 'Segoe Pro Cond';
+    font-weight: bold;
+}
+ul.widget1 {
+    float: left;
+    width: 90%;
+    margin: 20px 0 20px 20px;
+    padding: 0px;
+    list-style-type: none;
+    list-style-position: outside;
+}
+ul.widget1 li {
+    float: left;
+    clear: both;
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #e0e0e0;
+    padding: 0 0 7px 0px;
+}
+ul.widget1 li a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+    display: block;
+}
+/*.row {
+    margin-right: 4%;
+    margin-left: 4%;
+}*/
+.container {
+    position: relative;
+    z-index: 999;
+}
+.about-page-section {
+    padding: 70px 0 0 0px;
+}

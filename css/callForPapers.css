@@ -1,0 +1,9 @@
+table, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.container_call{
+  margin-left: 7%;
+  margin-top: 3%;
+  margin-right: 7%;
+}

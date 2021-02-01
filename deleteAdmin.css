@@ -1,0 +1,28 @@
+.delete_Main {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.box_del {
+  background-color: skyblue;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: white;
+}
+
+.del_sub {
+  background: lightgreen;
+  color: white;
+  padding: 2%;
+}
+.del_head {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  background: skyblue;
+  color: white;
+}

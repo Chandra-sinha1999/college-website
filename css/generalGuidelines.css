@@ -1,0 +1,89 @@
+.header_general {
+  background-color: grey;
+  padding: 3% 10%;
+}
+.text11_general {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: yellow;
+}
+.text12_general {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: darkred;
+  margin-top: -13px;
+}
+.line {
+  vert-align: middle;
+  height: 60px;
+  width: 60px;
+}
+.breadcrump_general li {
+  display: inline-block;
+}
+.home_general {
+  color: darkred;
+}
+.active_general {
+  color: #8b0000;
+}
+.breadcrump_general {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.submission_general {
+  padding-top: 60px;
+  padding-right: 70px;
+}
+.submission_general h3 {
+  background-color: darkred;
+  padding: 8px;
+  font-weight: bold;
+  float: left;
+  font-size: 20px;
+}
+ul.widget2_general {
+  float: left;
+  width: 98%;
+  margin: 0px 0 2% 0;
+}
+ul.widget2_general li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  border-bottom: 1px #fff;
+}
+.submission_general h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+}
+.for_topMargin {
+  margin-top: 25%;
+}
+/* submission procedure */
+.publication {
+  padding-bottom: 20px;
+}
+/* copyright */
+.continue_journal {
+  padding: 10px 15px;
+  background-color: darkred;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0 35px 0;
+}
+.continue_journal:hover {
+  color: yellow;
+}
+.Author-centre {
+  text-align: center;
+}
+.general_text_bg {
+  color: white;
+}

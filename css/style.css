@@ -1,0 +1,96 @@
+.homeimage {
+  width: 100px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  width: 20%;
+  height: 94%;
+}
+.title {
+  width: 100%;
+  height: 80%;
+  padding: 0 0 3%;
+}
+.titleBorderHome {
+  margin-bottom: 2%;
+}
+.titleText {
+  font-size: 4rem;
+}
+.ugcStyle {
+  background: gray;
+  color: white;
+  border: 1px solid gray;
+}
+
+.ugcStyle:hover {
+  text-decoration: none;
+  color: white;
+  background-color: darkgray;
+}
+.scopus-img {
+  padding-top: 17px;
+  height: 100px;
+  width: 150px;
+}
+.navbar-expand-sm {
+  background: #8b0000;
+  min-height: 70px;
+}
+.navbar-collapse {
+  font-size: 15px;
+}
+.nav-item {
+  font-size: small;
+}
+.nav-link:hover {
+  color: yellow;
+}
+.nav-link {
+  color: aliceblue;
+}
+.dropdown-item {
+  color: black;
+}
+.dropdown-item:hover {
+  color: darkred;
+}
+/* sliding window */
+.page-footer {
+  color: white;
+}
+.socialMedia {
+  padding-left: 10%;
+}
+.scopusDiv {
+  padding-left: 5%;
+}
+.ugcDiv {
+  padding-left: 5%;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: darkred;
+}
+.footerLinks {
+  color: white;
+}
+.footerLinks:hover {
+  color: yellow;
+}
+.upper_section {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.about_home {
+  font-size: 18px;
+}
+.about_heading {
+  margin-bottom: 2%;
+}

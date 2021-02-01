@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Submission Procedure</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script>
+        function includeHTML() {
+          var z, i, elmnt, file, xhttp;
+          /*loop through a collection of all HTML elements:*/
+          z = document.getElementsByTagName("*");
+          for (i = 0; i < z.length; i++) {
+            elmnt = z[i];
+            /*search for elements with a certain atrribute:*/
+            file = elmnt.getAttribute("w3-include-html");
+            if (file) {
+              /*make an HTTP request using the attribute value as the file name:*/
+              xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                if (this.readyState == 4) {
+                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                  /*remove the attribute, and call this function once more:*/
+                  elmnt.removeAttribute("w3-include-html");
+                  includeHTML();
+                }
+              }      
+              xhttp.open("GET", file, true);
+              xhttp.send();
+              /*exit the function:*/
+              return;
+            }
+          }
+        };
+        </script>
+    </head>
+    <body>
+      <div w3-include-html="upperNav.html"></div>
+      <div w3-include-html="navBar.html"></div>
+
+
+
+      <div class="header_general">
+        <div class="inner-header_general">
+            <h1 class="text11_general">SUBMISSION</h1>
+            <h1 class="text12_general">PROCEDURE</h1>
+        <!-- <img class="line" src="" alt="LINE IMAGE"> -->
+            </div>
+        
+                <ol class="breadcrump_general">
+                    <li>
+                        <a class="home_general" href="home.html">
+                            <i class="fa fa-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="active_general">
+                       / Submission Procedure
+                    </li>
+                </ol>
+        </div>
+        
+        
+        <div class="about1">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-9 col-xs-12 submission_general">
+
+                    <h4>Submission & Peer Review Process (Key Steps)</h4>
+        
+                      <p>The authors have to follow the process of online submission of their manuscript as 
+                        mentioned on the website of Vision & Quest International Journal of Science Technology 
+                        & Management (VQIJSTM). In case, the authors face any difficulty for online submission 
+                        of their manuscript, they are required to contact the editor via email, for seeking help 
+                        and suggestions.</p>
+
+                      <p>The author is required to submit complete information as prescribed in the submission page.</p>
+
+                      <ul class="widget2_general">
+                        <li>In the first step, the article submitted for publication is checked by the editor(s) 
+                          for its scope, relevancy of content and its merit of whether the paper is qualified to 
+                          be considered to be published in the journal. The editor(s) simultaneously focus on 
+                          grammar, readability, punctuations, language etc. before the commencement of the 
+                          process of reviewing the articles is initiated. The author(s) are duly informed about
+                          the reason of rejection of their paper. In second stage, the paper is sent for double 
+                          blind reviews.</li>
+                        <li>The Reviewers after having reviewed the article, send the article back for further processing to the editorial office.</li>
+                        <li>The Editor-in-Chief is responsible to send the reviews of the paper to the authors after the initial review is completed.</li>
+                        <li>The authors are required to respond to the comments and suggestions of the reviewers and accordingly make the desired corrections.</li>
+                        <li>After making amendments based on the comments and suggestions of the reviewer, the article is then sent for a re-review.</li>
+                        <li>The Editor-in-Chief has the authority to either accept, reject, accept the articles with certain minor alterations or may can send the articles for a review, for the third time, as per the demand.</li>
+                        <li>The author is required to submit the final version of his article, if it is accepted. This final version of the article would be added to the queue for publication, technically termed as "in-press" queue, with the publisher.</li>
+                        <li>Before the publication of the article, the publisher would send the article to the authors for digital proof reading and editing (galley) .After the approval of galley, no editing can be made/ allowed.</li>
+                        <li>The article would then be published in VQIJSTM, in the prescribed time frame</li>
+                      </ul>
+
+                  </div>
+                  <div class="col-md-3 col-xs-12 pull_right">
+                    <div class="right_box for_topMargin">
+                    <div class="head_div"><h2>Submission Process</h2></div>
+                    <ul class="widget1">
+                     <!-- <li><a href="genralGuidelinesPublisher.html">General Guidelines</a></li> -->
+                     <li><a href="manuscriptPrepration.html">Manuscript Preprations</a></li>
+                     <li><a href="ethicalStandards.html">Ethical Standards</a></li>
+                     <li><a href="submissionProcedure.html"><strong>Submission Procedure</strong></a></li>
+                     <li><a href="copyrightAgreement.html">Copy Right Agreement and Originality  Certificate</a></li>
+                     <li><a href="peerReview.html">Peer Review Process</a></li>
+                    </ul>
+                    </div>
+                    </div>
+        
+              </div>
+            </div>
+        </div>
+        
+<div w3-include-html="footBar.html"></div>
+
+   <script>
+    includeHTML();
+  </script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+  </body>
+</html>
